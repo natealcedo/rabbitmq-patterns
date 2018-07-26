@@ -1,0 +1,12 @@
+version: '3'
+services:
+  rabbitmq:
+    image: rabbitmq:3.7.7-management
+    hostname: localhost
+    ports:
+      - 5762:5762
+      - 15672:15672
+    volumes:
+      - rabbitmq:/var/lib/rabbitmq
+volumes:
+  rabbitmq:
