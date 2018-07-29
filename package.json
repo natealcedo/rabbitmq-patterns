@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pubsub": "node pubsub"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "amqplib": "^0.5.2"
+    "@zendeskgarden/react-utilities": "^0.2.0",
+    "amqplib": "^0.5.2",
+    "sleep": "^5.1.1",
+    "sleep-promise": "^8.0.1"
   }
 }
